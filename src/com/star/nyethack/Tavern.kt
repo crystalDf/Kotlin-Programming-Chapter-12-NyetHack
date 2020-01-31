@@ -1,5 +1,6 @@
+package com.star.nyethack
+
 import java.io.File
-import kotlin.math.roundToInt
 
 const val TAVERN_NAME = "Taernyl's Folly"
 const val CASK = 5
@@ -79,7 +80,10 @@ fun main(args: Array<String>) {
             break
         }
 
-        placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
+        placeOrder(
+            uniquePatrons.shuffled().first(),
+            menuList.shuffled().first()
+        )
         orderCount++
     }
 

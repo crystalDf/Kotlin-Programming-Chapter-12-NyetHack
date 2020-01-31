@@ -1,3 +1,5 @@
+package com.star.nyethack
+
 import java.lang.IllegalStateException
 
 fun main(args: Array<String>) {
